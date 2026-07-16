@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from src.nova.routers import api_router
+from src.nova.controllers import api_router
 
 
 def create_app() -> FastAPI:

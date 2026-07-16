@@ -6,9 +6,9 @@
 src/
 ├── app.py          # 创建 FastAPI 应用、注册路由
 └── nova/
-    ├── routers/     # 路由层：接收 HTTP 请求
+    ├── controllers/ # 控制器层：接收 HTTP 请求
     ├── services/    # 业务层：处理业务规则
-    └── repositories/# 数据层：读写数据库
+    └── mappers/     # 数据层：读写数据库
 ```
 
 启动开发服务：
